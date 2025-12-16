@@ -1,0 +1,70 @@
+/* Button styling */
+
+$btn1BgColor: #000;
+$bth1TxtColor: #000;
+$btn1borderColor: #ccc;
+$btn1Gradien1: #fff;
+$btn1Gradient2: #000;
+
+
+$btn2BgColor: #000;
+$bth2TxtColor: #000;
+$btn2borderColor: #ccc;
+
+
+.button {
+    color: $bth1TxtColor ;
+    background-color: $btn1BgColor;
+    border: 1px solid $btn1borderColor;
+    background-image: linear-gradient($btn1Gradien1, $btn1Gradient2);
+    text-decoration: none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    padding: 0.4rem 1rem;
+    text-align: center;
+    line-height: 1.4;
+    margin: 8px;
+    outline: none;
+}
+
+
+.buttonLinks {
+  color: $bth2TxtColor ;
+  background-color: $btn2BgColor;
+  border: 1px solid $btn2borderColor;
+  background-image: linear-gradient($btn1Gradien1, $btn1Gradient2);
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9rem;
+  padding: 0.2rem 1rem;
+  margin:8px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.btn1 {
+   -moz-box-shadow: 0 -3px 4px 1px rgba(180,171,180,0.86);
+   -webkit-box-shadow: 0 -3px 4px 1px rgba(180,171,180,0.86);
+   /* border-style: none; */
+   /* margin: 3px; */
+   background-color: #3a353c;
+   border-radius: 24px;
+   border: 0.3px solid gray;
+   box-shadow: 0 -3px 4px 1px rgba(180,171,180,0.86);
+   color: white;
+   cursor: pointer;
+   display: inline;
+   font-size: 0.7em;
+   letter-spacing: 0.9px;
+   padding: 10px;
+   text-transform: uppercase;
+}
+
+.offlineMode {
+    background-color: gray;
+    color: white;
+}

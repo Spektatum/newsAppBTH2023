@@ -1,0 +1,161 @@
+
+/* Base & layout1 & navDropDown */
+//
+// @media screen and (max-height: 800px) {
+//     .navDropDown {
+//         max-height: 700px;
+//     }
+// }
+//
+// @media screen and (max-height: 500px) {
+//     .navDropDown {
+//         max-height: 400px;
+//     }
+// }
+
+@media screen and (max-height: 440px) {
+    .navDropDown {
+        max-height: 254px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    .navDropDown {
+        max-height: 181px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-height: 250px) {
+    .navDropDown {
+        max-height: 100px;
+    }
+}
+//
+// @media screen and (max-height: 200px) {
+//     .navDropDown {
+//         max-height: 100px;
+//     }
+// }
+
+/** MAX WIDTH **/
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1800px) {
+
+}
+
+@media screen and (max-width: 1900px) {
+    .header {
+        background-image: url('../img/bg/juliana-kozoski_1400px_80.jpg');
+        max-width: 650px;
+        height: 290px;
+    }
+
+    #content {
+        max-width: 650px;
+    }
+
+    .contentTxt {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        background-image: url('../img/bg/juliana-kozoski_1000px_80.jpg');
+        max-width: 500px;
+        height: 230px;
+    }
+
+    #content {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        background-image: url('../img/bg/juliana-kozoski_600px_80.jpg');
+        max-width: 400px;
+        height: 95px;
+        margin-top: 50px;
+    }
+
+    #content {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        background-image: url('../img/bg/juliana-kozoski_400px_80.jpg');
+        // max-width: 200px;
+        height: 90px;
+    }
+}
+
+// @media screen and (max-width: 370px) {
+//     .header {
+//         max-width: 400px;
+//         height: 160px;
+//     }
+// }
+
+@media screen and (max-width: 310px) {
+    .header {
+        background-image: url('../img/bg/juliana-kozoski_350px_80.jpg');
+        // max-width: 190px;
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .header {
+        // max-width: 260px;
+        height: 57px;
+    }
+
+    #content {
+        max-width: 200px;
+    }
+
+    .contentTxt {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    // .header {
+    //     max-width: 200px;
+    //     height: 90px;
+    // }
+
+    #content {
+        max-width: 200px;
+    }
+
+    .contentTxt {
+        max-width: 190px;
+    }
+}
+//
+// @media screen and (max-width: 200px) {
+//     .header {
+//         max-width: 150px;
+//         height: 80px;
+//     }
+// }

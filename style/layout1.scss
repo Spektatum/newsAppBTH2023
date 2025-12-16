@@ -1,0 +1,70 @@
+/* Layout1 */
+
+$innerMain : #262424;
+// $outerContent: #1d1919;
+//
+// #content {
+//   background-color: $outerContent;
+//   color: white;
+//   margin-top: 40px;
+//   margin: 0 auto;
+//   max-width: 650px;
+//   min-height: 800px;
+//   padding-bottom: 100px;
+//   padding: 20px;
+//   transition: 2s width;
+//   width: 100%;
+// }
+
+.contentTxt {
+  // background-color: $innerMain;
+  margin: 0 auto;
+  max-width: 550px;
+  min-height: 800px;
+  padding: 20px;
+  width: 100%;
+}
+
+.smallContent {
+  background-color: $innerMain;
+  margin: 0 auto;
+  max-width: 200px;
+  min-height: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.miniContent {
+  background-color: $innerMain;
+  margin: 0 auto;
+  max-width: 100px;
+  min-height: 100px;
+  padding: 20px;
+  width: 100%;
+}
+
+.imgBox1 {
+  margin: 0 auto;
+  max-width: 350px;
+  padding: 5px;
+  width: 100%;
+}
+
+.imgBox1 img {
+  width: 100%;
+}
+
+/* Fade-in box */
+.contentTxt {
+    animation: fadein 10s;
+    -moz-animation: fadein 10s; /* Firefox */
+    -webkit-animation: fadein 10s; /* Safari and Chrome */
+    -o-animation: fadein 10s; /* Opera */
+}
+
+.smallContent {
+    animation: fadein 10s;
+    -moz-animation: fadein 10s; /* Firefox */
+    -webkit-animation: fadein 10s; /* Safari and Chrome */
+    -o-animation: fadein 10s; /* Opera */
+}

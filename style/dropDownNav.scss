@@ -1,0 +1,200 @@
+/* Drop down menu */
+.navDropDown {
+    // display: none;
+    background-color: black;
+    height: 0px;
+    min-width: 200px;
+    overflow: hidden;
+    position: fixed;
+    right: 0px;
+    text-align: right;
+    top: 49px;
+    transition: height 1s;
+    width: 150px;
+    z-index: 1;
+}
+
+.closedNav {
+    height: 0;
+}
+
+.openNav {
+    height: 78px;
+}
+
+.dropDownBtn {
+  width: 35px;
+  height: 40px;
+  float: right;
+  border: none;
+  cursor: pointer;
+  // display: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+// The crossing X
+.bar1, .bar2, .bar3 {
+  width: 100%;
+  height: 1px;
+  background-color: #5f5c5c;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.dropDownBtn:hover .bar1{
+  background-color: white;
+}
+
+.dropDownBtn:hover .bar3, {
+  background-color: white;
+}
+
+.dropDownBtn:hover .bar2, {
+  background-color: white;
+}
+
+.change .bar1 {
+  // -moz-animation: fadein 2s; /* Firefox */
+  // -o-animation: fadein 2s; /* Opera */
+  // -webkit-animation: fadein 2s; /* Safari and Chrome */
+  // -webkit-transform: rotate(-360deg) translate(-10px, 8px);
+  // transform: rotate(-360deg) translate(-10px, 8px);
+  // animation: fadein 2s;
+  background-color: white;
+}
+
+.change .bar2 {
+  // -moz-animation: fadein 2s; /* Firefox */
+  // -o-animation: fadein 2s; /* Opera */
+  // -webkit-animation: fadein 2s; /* Safari and Chrome */
+  // -webkit-transform: rotate(-360deg) translate(-10px, 8px);
+  // transform: rotate(-360deg) translate(-10px, 8px);
+  // animation: fadein 2s;
+  background-color: white;
+}
+
+.change .bar3 {
+  // -moz-animation: fadein 2s; /* Firefox */
+  // -o-animation: fadein 2s; /* Opera */
+  // -webkit-animation: fadein 2s; /* Safari and Chrome */
+  // -webkit-transform: rotate(50deg) translate(-10px, -8px);
+  // transform: rotate(50deg) translate(-10px, -8px);
+  // animation: fadein 2s;
+  background-color: white;
+}
+
+.navHorizontal {
+  float: right;
+}
+
+.navElem2 {
+  -moz-box-shadow:    inset 1px 1px 10px #333;
+  -webkit-box-shadow: inset 1px 1px 10px #333;
+  // border: 2px solid #4CAF50;
+  background-color: #4e4b43;
+  background-image: url("../img/icons/arrow/icons8-left-arrow-128.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  border: 1px outset #4e4b43;
+  box-shadow: inset 1px 1px 10px #333;
+  color: white;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  text-align: right;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.navElem2:hover {
+  // -webkit-box-shadow: inset 1px 1px 10px #000;
+  // -moz-box-shadow:    inset 1px 1px 10px #000;
+  // box-shadow:         inset 1px 1px 10px #000;
+  // background-color: white;
+  color: #d29db4;
+}
+
+.active2 {
+  background-image: url("../img/icons/arrow/icons8-left-arrow-128.png");
+  background-size: auto 100%;
+  background-color: #4e4b43;
+  background-repeat: no-repeat;
+  border: 1px outset red;
+  border: none;
+  color: #d29db4;
+  cursor: pointer;
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: right;
+  width: 100%;
+  -webkit-box-shadow: inset 1px 1px 10px #333;
+  -moz-box-shadow:    inset 1px 1px 10px #333;
+  box-shadow:         inset 1px 1px 10px #333;
+}
+
+.active2:hover {
+  // -webkit-box-shadow: inset 1px 1px 10px #FFF;
+  // -moz-box-shadow:    inset 1px 1px 10px #FFF;
+  // box-shadow:         inset 1px 1px 10px #FFF;
+  // background-color: white;
+  color: #520d2b;
+}
+
+// /* Media q */
+// @media screen and (max-width: 700px) {
+//
+//     .navHorizontal {
+//         display: none;
+//     }
+//
+//     .dropDownBtn {
+//         display: inline;
+//     }
+// }
+//
+//
+// @media screen and (max-width: 370px) {
+//
+//     .navDropDown {
+//         font-size: 0.8em;
+//     }
+//
+//     .cornerTitle {
+//         font-size: 0.8em;
+//     }
+//
+//     .bar1, .bar2, .bar3 {
+//         height: 2px;
+//     }
+//
+//     .change .bar1 {
+//    -webkit-transform: none;
+//    transform: none;
+//    background-color: #b62323;
+//    height: 2px;
+// }
+//
+// .change .bar2 {
+//    opacity: 1;
+//    height: 2px;
+//    background-color: #b62323;
+//  }
+//
+// .change .bar3 {
+//    -webkit-transform: none;
+//    transform: none;
+//    height: 2px;
+//    background-color: #b62323;
+// }
+//
+// .bar1, .bar2, .bar3 {
+//      height: 2px;
+//  }
+//
+//  .dropDownBtn {
+//    width: 30px;
+//  }

@@ -1,0 +1,32 @@
+/* Navigation and links */
+
+$activeNav : #9a5abd;
+
+/* menu nav bottom */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row; /*nowrap*/
+    justify-content: space-around;
+    background-color: black;
+    padding: 5px;
+}
+
+
+/* links */
+.material-icons {
+    cursor: pointer;
+}
+
+.active {
+    color: $activeNav;
+}
+
+.icon-text {
+    display: block;
+    letter-spacing: 1px;
+    padding: 5px;
+}

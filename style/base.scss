@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+@import 'normalize.min.css'; // Normalize to reset all default settings of different browsers
+@import 'basics.scss'; // Basics header, footer, paragraph, headlines
+
+@import 'dropDownNav.scss'; // Navigation
+@import 'slideMenu.scss'; // Navigation
+@import 'forms.scss'; // Form style
+@import 'buttons.scss'; // Buttons
+@import 'paragraphs.scss'; // Pragraphs
+@import 'waitAnim.scss'; // waitAnimations
+
+@import 'newsProject.scss'; // News project
+@import 'layout1.scss'; // Layout template 1
+@import 'map.scss'; // Map
+
+@import 'mediaQ.scss'; // Media queries & screens
+@import 'mediaQparagraphs.scss'; // Media queries for paragraphs
+
+
+//@import 'images.scss'; // All image style
+//@import 'linkNnav.scss'; // Links and navigation
+// @import 'siteSpec.scss'; // Site specific styling
+// @import 'mediaQ.scss'; // Site specific styling
+// //@import 'buttons.scss'; // Buttons
+// @import 'bubbles.scss'; // The 'bubbles' - text areas for display
+@import 'screensMediaQ.scss'; // Screen settings for different ppi & resolutions
